@@ -1,0 +1,21 @@
+.order-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid tomato;
+  border-bottom: 1px solid tomato;
+}
+.order-container p {
+  font-size: 15px;
+}
+.order-container .icon {
+  position: relative;
+}
+.order-container .icon div img {
+}
+.order-container .icon #selecter {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

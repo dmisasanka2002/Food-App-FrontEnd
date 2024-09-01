@@ -1,0 +1,22 @@
+.left-top-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left-top-panel input {
+  padding: 10px 25px;
+  border-radius: var(--border-radius);
+}
+.left-top-panel div {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 580px) {
+  .left-top-panel div {
+    flex-direction: column;
+  }
+  .left-top-panel {
+    width: 100%;
+    padding: 20px;
+  }
+}

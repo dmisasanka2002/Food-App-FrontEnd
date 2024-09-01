@@ -1,0 +1,31 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  color: var(--font-color);
+}
+.box .contact-info {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow); /* 0 0.5rem 1rem rgb(18 25 22); */
+}
+.contact-info i {
+  font-size: 28px;
+  color: var(--primary-color);
+}
+.contact-info h4 {
+  font-size: 20px;
+  color: var(--heading-color);
+  margin: 20px 0 10px 0;
+  font-weight: 600;
+}
+.contact-info p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--heading-color);
+}
+.contact-info a {
+  text-decoration: none;
+  color: var(--font-color);
+}

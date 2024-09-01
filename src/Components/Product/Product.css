@@ -1,0 +1,16 @@
+.food .food-img {
+  width: 100%;
+  border-radius: var(--border-radius-full);
+  position: relative;
+}
+
+.food-img img {
+  width: 100%;
+  border-radius: var(--border-radius-full) var(--border-radius-full) 0 0;
+}
+.food .price h4 {
+  color: var(--primary-color);
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: bolder;
+}

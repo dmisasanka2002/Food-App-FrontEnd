@@ -1,0 +1,61 @@
+.team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin-top: 30px;
+  gap: 20px;
+  /* transition: 1s; */
+  animation: fadeIn 1s;
+}
+.row .member {
+  width: 100%;
+  margin: auto;
+  border-radius: var(--border-radius-full) var(--border-radius-full) 0 0;
+  /* box-shadow: 1px 1px 2px 2px #00000050; */
+  /* transition: 0.1s; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  color: var(--font-color);
+}
+.member .img-container {
+  width: 100%;
+  border-radius: var(--border-radius-full);
+  position: relative;
+}
+.img-container img {
+  display: flex;
+  width: 100%;
+  border-radius: var(--border-radius-full);
+  /* transition: 0.5s; */
+}
+.img-container img:hover {
+}
+.member .description h3 {
+  /* transition: 0.5s; */
+}
+.member .team-contacts {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.member .team-contacts svg {
+  font-size: 20px;
+  cursor: pointer;
+  /* transition: 0.5s; */
+}
+.member .team-contacts svg:hover,
+.member .description h3:hover {
+  color: var(--primary-color);
+}

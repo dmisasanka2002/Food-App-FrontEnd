@@ -1,0 +1,41 @@
+.cart-btns {
+  height: auto;
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  background-color: var(--bg-color);
+  border-radius: var(--border-radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
+  padding: 5px;
+}
+.cart-btns .hidden {
+  display: none;
+  /* transition: 0.5s; */
+}
+.cart-btns .green svg {
+  color: var(--secondary-color);
+  /* transition: 0.5s; */
+}
+.cart-btns .red svg {
+  color: var(--svg-color);
+  /* transition: 0.5s; */
+}
+.cart-btns .plus,
+.cart-btns .minus {
+  cursor: pointer;
+}
+.cart-btns .plus,
+.cart-btns .minus,
+.cart-btns .value {
+  border-radius: 50%;
+}
+.cart-btns .value span {
+  font-size: x-large;
+}
+.cart-btns svg {
+  width: 25px;
+  height: 25px;
+}

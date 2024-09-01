@@ -1,0 +1,26 @@
+.loader-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color-2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader-container .loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid tomato;
+  border-right-color: lightblue;
+  animation: loader2 1s infinite linear;
+}
+
+@keyframes loader2 {
+  to {
+    transform: rotate(1turn);
+  }
+}

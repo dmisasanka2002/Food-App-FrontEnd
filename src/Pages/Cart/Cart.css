@@ -1,0 +1,51 @@
+.cart-topics {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.cart-bill {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.hidden {
+  display: none;
+}
+.left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.left-top div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-top input {
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+}
+.right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.right-bottom input {
+  padding: 10px 20px;
+  border: none;
+}
+.right-bottom [type="text"] {
+  background-color: gray;
+  color: var(--font-color);
+}
+
+@media (max-width: 550px) {
+  .cart-bill {
+    flex-direction: column;
+  }
+}

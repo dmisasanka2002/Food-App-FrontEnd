@@ -1,0 +1,19 @@
+.page-content {
+  /*width: max(80%, 620px);*/
+  min-width: 340px;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  border-radius: 15px;
+}
+.page-content h2 {
+  font-size: max(3vw, 17px);
+  color: var(--heading-color);
+}
+.page-content h1 {
+  font-size: max(4vw, 20px);
+  color: var(--heading-color);
+}

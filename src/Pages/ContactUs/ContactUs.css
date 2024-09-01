@@ -1,0 +1,11 @@
+.contacts {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: var(--bg-color);
+}
+.contacts .row {
+  text-align: center;
+  padding: 50px 10px;
+  width: 100%;
+  margin-top: 0;
+}
